@@ -7,7 +7,7 @@ env:
   SOLUTION_FILE_PATH: .
 
 permissions:
-  contents: read
+  contents: write
 
 defaults:
     run:
@@ -33,5 +33,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        files: "unit/build/toolshed-*.tgz"
+        files: "unix/build/toolshed-*.tgz"
 
