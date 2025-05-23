@@ -33,5 +33,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        files: "unix/build/toolshed-*.tgz"
+        files: "build/unix/toolshed-*.tgz"
 
