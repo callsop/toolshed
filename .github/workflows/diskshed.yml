@@ -89,11 +89,6 @@ jobs:
             mingw-w64-x86_64-toolchain
             mingw-w64-x86_64-cmake
             mingw-w64-x86_64-ninja
-      - name: Cache wxWidgets
-        uses: actions/cache@v4
-        with:
-          path: wx-install
-          key: wxwidgets-${{ env.WX_VERSION }}-${{ runner.os }}-mingw64-static
       - name: Build wxWidgets
         shell: msys2 {0}
         run: |
