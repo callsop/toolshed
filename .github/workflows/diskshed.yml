@@ -105,6 +105,7 @@ jobs:
             cmake -S "wxWidgets-${WX_VERSION}" -B wx-build -G Ninja \
               -DCMAKE_BUILD_TYPE=Release \
               -DCMAKE_INSTALL_PREFIX="$PWD/wx-install" \
+              -DwxBUILD_USE_STATIC_RUNTIME=ON \
               -DwxBUILD_SHARED=OFF \
               -DwxBUILD_SAMPLES=OFF \
               -DwxBUILD_TESTS=OFF \
