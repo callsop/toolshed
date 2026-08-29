@@ -1,6 +1,6 @@
 # ToolShed
 
-Version 2.6.0
+Version 2.6.1
 
 ToolShed is a cornucopia of tools and source code for the Tandy Color Computer and Dragon micro.
 

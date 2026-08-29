@@ -1,4 +1,4 @@
-ToolShed v2.6.0
+ToolShed v2.6.1
 -------------
 
 ## A Color Computer Cross-Development Toolset

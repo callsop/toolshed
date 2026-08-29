@@ -1,6 +1,6 @@
 # Project-Wide Rules
 
-VERSION = 2.6.0
+VERSION = 2.6.1
 
 MERGE		= cat
 SOFTLINK	= ln -s
